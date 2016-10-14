@@ -6,7 +6,7 @@ using namespace cv;
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofSetVerticalSync(true);
-    cam.initGrabber(1024,576);
+    cam.initGrabber(1280, 720);
     
     tracker.setup();
     tracker.setRescale(.5);
@@ -32,7 +32,7 @@ void ofApp::draw(){
     drawMouth(leftEye, mouthImage);
     drawMouth(rightEye, mouthImage);
     
-    ofDrawBitmapString(ofToString((int) ofGetFrameRate()), 10, 20);
+    //ofDrawBitmapString(ofToString((int) ofGetFrameRate()), 10, 20);
 }
 
 void ofApp::drawMouth(ofVec2f eye, ofImage mouth){
