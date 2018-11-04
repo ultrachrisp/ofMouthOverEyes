@@ -5,7 +5,9 @@ using namespace cv;
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofSetVerticalSync(true);
+    //ofSetVerticalSync(true);
+    //cam.setVerbose(true);
+    cam.setDeviceID(1); // for multiple device cameras
     cam.initGrabber(1280, 720);
     
     tracker.setup();
