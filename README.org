@@ -1,6 +1,10 @@
 #+TITLE: ofMouthOverEyes
 
-Creepy project I found on the forums:
+This is a creepy project that I adapted & have been using to (unsuccessfully) torture my children & collegues with:
+
+[[file:mouthOverEyes.jpg]]
+
+Inspiration & heavy lifting was taken from the forums:
 https://forum.openframeworks.cc/t/draw-image-with-transparent-background-to-a-video-stream-using-ofxcv/19685/3
 
 Full credit to edapx:
