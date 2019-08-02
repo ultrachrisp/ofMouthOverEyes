@@ -1,6 +1,6 @@
 #+TITLE: ofMouthOverEyes
 
-This is a creepy project that I adapted & have been using to (unsuccessfully) torture my children & collegues with:
+This is a creepy project I have (unsuccessfully) been using to torture my children & colleagues with:
 
 [[file:mouthOverEyes.jpg]]
 
@@ -13,7 +13,7 @@ https://forum.openframeworks.cc/users/edapx/activity
 Open Frameworks Version:
 of_v0.10.0_osx_release
 
-Dependancies:
+Dependencies:
 - ofxCv
 - ofxDelaunay
 - ofxFaceTracker
